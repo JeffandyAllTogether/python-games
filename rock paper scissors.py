@@ -1,5 +1,5 @@
 import random
-print("Welcome To Rock, Paper and Scissors, It's a 3 point game")
+print("Welcome To Rock, Paper and Scissors, Best out of 3 wins!")
 print("Simply type rock (or) paper (or) scissors (or) quit")
 user = ""
 user_points = 0
@@ -41,7 +41,7 @@ while user != "quit":
             if user_1 == "y":
                 user_points = 0
                 system_points = 0
-                print("Welcome To Rock, Paper and Scissors, It's a 3 point game")
+                print("Welcome To Rock, Paper and Scissors, Best out of 3 wins!")
                 print("Simply type rock (or) paper (or) scissors (or) quit")
             elif user_1 == "n":
                 print("Thank You for Playing!")
@@ -53,7 +53,7 @@ while user != "quit":
             if user_2 == "y":
                 user_points = 0
                 system_points = 0
-                print("Welcome To Rock, Paper and Scissors, It's a 3 point game")
+                print("Welcome To Rock, Paper and Scissors, Best out of 3 wins!")
                 print("Simply type rock (or) paper (or) scissors (or) quit")
             elif user_2 == "n":
                 print("Thank You for Playing!")
